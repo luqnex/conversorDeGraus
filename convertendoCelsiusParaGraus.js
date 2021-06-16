@@ -9,6 +9,6 @@ converterParaCelsius.addEventListener('click', () => {
     let farenheint = document.querySelector('#farenheit').value
     let celsius = (farenheint - 32) * 5/9
 
-    document.querySelector('#resultadoCelsius').innerHTML = `${celsius.toFixed(2)} ° C`
+    document.querySelector('#resultadoCelsius').innerHTML = `${celsius.toFixed(2)}° C`
 })
 
